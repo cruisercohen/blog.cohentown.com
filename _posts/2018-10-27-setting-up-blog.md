@@ -26,6 +26,6 @@ needed to look in the source for the theme to see that it didn't have a post lay
 
 https://help.github.com/articles/quick-start-setting-up-a-custom-domain/
 Add custom name to repo settings
-add CNAME record that points to my site
+add CNAME record that points to the root of my github pages site. even if I have a project site, don't include the full path. there is some confusing documentation about this.
 wait for dns to propogate
 remove and re-add custom name from repo settings
