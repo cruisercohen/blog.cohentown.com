@@ -111,12 +111,12 @@ sls remove
 Found a lot of inspiration for this, but there were some modifications I wanted to make to each so my result is a bit of a mashup and some customization.  
 
 * Great stuff here. My example uses async methods because I don't like callbacks, personal preference.  
-https://blog.shovonhasan.com/deploying-a-typescript-node-aws-lambda-function-with-serverless/  
+<https://blog.shovonhasan.com/deploying-a-typescript-node-aws-lambda-function-with-serverless/>  
 * An example from the serverless framework samples library, it doesn't make use of explicit types and also does callbacks, but shows a fully setup project
-https://github.com/serverless/examples/blob/master/aws-node-typescript-rest-api-with-dynamodb/todos/create.ts
+<https://github.com/serverless/examples/blob/master/aws-node-typescript-rest-api-with-dynamodb/todos/create.ts>
 * Aws documentation. The upshot is you need to create a Lambda Function Handler that accepts and returns API Gateway events and results
     * Documentation on the AWS Lambda function handler and how it should be formatted, which you will find in `@types/aws-lambda` anyway
-    https://docs.aws.amazon.com/lambda/latest/dg/nodejs-prog-model-handler.html#nodejs-prog-model-handler-example
+    <https://docs.aws.amazon.com/lambda/latest/dg/nodejs-prog-model-handler.html#nodejs-prog-model-handler-example>
     * Documentation on AWS Lambda proxy integrations in API Gateway, shows correct formats, also in `@types/aws-lambda`
-    https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-lambda-proxy-integrations.html
+    <https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-lambda-proxy-integrations.html>
 
